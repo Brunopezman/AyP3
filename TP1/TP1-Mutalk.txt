@@ -1,0 +1,13 @@
+"Put here the classes you want to mutate"
+classesToMutate := { AlgoOlimpicos . Atleta . Criterio . CriterioDebil . CriterioFuerte . Edad . EdadJoven . EdadVeterano . GestorDeAtletas . Nacionalidad . Limitrofe  . Extranjero  . Local  . PesoMaximo . AtletaNoEncontradoError . CriterioInvalidoError . AlturaInvalidaError . PesoInvalidoError . EdadInvalidaError . NombreInvalidoError . NacionalidadInvalidaError }.
+"Put here the test classes associated with"
+testClasses :=  { AlgoOlimpicosTest . CriterioTest . AtletaTest . GestorDeAtletasTest . PesoMaximoTest . NacionalidadTest . EdadTest}.
+
+analysis := MTAnalysis new
+    classesToMutate: classesToMutate;
+    testClasses: testClasses.
+
+analysis run.
+
+"To inspect the results"
+analysis generalResult inspect.
