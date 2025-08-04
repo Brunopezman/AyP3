@@ -1,4 +1,4 @@
-# TP 1 – Paradigmas de la Programación
+# TP1 – Paradigmas de la Programación
 
 Este repositorio contiene la entrega de un trabajo práctico de la materia **Paradigmas de la Programación**.  
 Incluye el código fuente, pruebas realizadas y el informe correspondiente.
